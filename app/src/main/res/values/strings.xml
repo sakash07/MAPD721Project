@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="forgotpwd">Forgot Password</string>
+    <string name="txtview_email">Enter Email Id:</string>
+    <string name="send">Send</string>
+    <string name="snow_scrap">Snow Scrapping</string>
+    <string name="lawn_maintain">Lawn Maintenance</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Join us and Search/public your \nshoveling snow services with others</string>
+
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="address">Address</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "5196567659",
+    "project_id": "mapd721project-942f6",
+    "storage_bucket": "mapd721project-942f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5196567659:android:4532e744abff8e34a10d2e",
+        "android_client_info": {
+          "package_name": "com.il.mapd721project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "5196567659-ma5v6am4m4siqjs76ohr5mll4amkrc1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLsxUXkN0B-1up_Mof24sV3q7cfOqxCDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "5196567659-ma5v6am4m4siqjs76ohr5mll4amkrc1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
