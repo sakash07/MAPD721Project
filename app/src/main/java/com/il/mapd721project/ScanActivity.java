@@ -38,8 +38,8 @@ public class ScanActivity extends AppCompatActivity {
 
         if(!btAdapter.isEnabled()){
 
-            Intent richiestaAttivazione = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-            startActivityForResult(richiestaAttivazione , BLUETOOTH_ON);
+            Intent requestActivate = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(requestActivate , BLUETOOTH_ON);
         }
         else
             loadDevices();
