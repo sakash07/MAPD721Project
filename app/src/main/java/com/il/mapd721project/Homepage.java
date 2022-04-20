@@ -14,6 +14,7 @@ public class Homepage extends AppCompatActivity {
 
     Button btnLogout;
     Button btnScan;
+    Button btnPay;
     FirebaseAuth mAuth;
 
     @Override
@@ -23,12 +24,20 @@ public class Homepage extends AppCompatActivity {
 
         btnLogout = findViewById(R.id.btn_logout);
         btnScan = findViewById(R.id.scan);
+        btnPay = findViewById(R.id.pay);
         mAuth = FirebaseAuth.getInstance();
 
         btnScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Homepage.this, ScanActivity.class));
+            }
+        });
+
+        btnPay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Homepage.this, Payment.class));
             }
         });
 

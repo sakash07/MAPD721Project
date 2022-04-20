@@ -59,6 +59,7 @@ public class ScanActivity extends AppCompatActivity {
 
     private void loadDevices()
     {
+        //query a list of bonded (paired) devices
         device = btAdapter.getBondedDevices();
         adapter.clear();
         for(BluetoothDevice bt : device)

@@ -18,10 +18,20 @@
         android:layout_marginBottom="10dp" />
 
     <Button
+        android:id="@+id/pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_below="@id/scan"
+        android:layout_marginBottom="10dp"
+        android:text="Pay" />
+
+    <Button
         android:id="@+id/btn_logout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/scan"
+        android:layout_below="@id/pay"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"

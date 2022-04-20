@@ -6,6 +6,8 @@
         <entry key="../../../../../../layout/custom_preview.xml" value="0.27447916666666666" />
         <entry key="app/src/main/res/layout/activity_homepage.xml" value="0.25052083333333336" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_payment.xml" value="0.2557291666666667" />
+        <entry key="app/src/main/res/layout/activity_payment_details.xml" value="0.14427083333333332" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_scan.xml" value="0.2557291666666667" />
       </map>
